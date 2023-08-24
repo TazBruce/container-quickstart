@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://xyz.au.auth0.com/
+          audiences: https://api.xyz.co.nz/
+          allowed_origin: https://app.xyz.co.nz/
